@@ -9,8 +9,11 @@
 #import "CalculatorBrain.h"
 
 @interface CalculatorBrain()
+
 @property (nonatomic, strong) NSMutableArray *operandStack;
+
 - (double)popOperand;
+
 @end
 
 
@@ -53,14 +56,31 @@
     else if ([operation isEqualToString:@"+"]) {
         result = [self popOperand] + [self popOperand];
     }
-    else if ([operation isEqualToString:@"-"]) {
+    else if ([operation isEqualToString:@"–"]) {
         double subtract = [self popOperand];
         result = [self popOperand] - subtract;
+    }
+    else if ([operation isEqualToString:@"sin"]) {
+        result = sin([self popOperand]);
+    }
+    else if ([operation isEqualToString:@"cos"]) {
+        result = cos([self popOperand]);
+    }
+    else if ([operation isEqualToString:@"sqrt"]) {
+        result = sqrt([self popOperand]);
+    }
+    else if ([operation isEqualToString:@"π"]) {
+        result = 3.1415926;
     }
     
     [self pushOperand:result];
     
     return result;
+}
+
+- (void)clearStack {
+    
+    [self.operandStack removeAllObjects];
 }
 
 @end

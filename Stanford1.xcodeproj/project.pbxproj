@@ -16,6 +16,7 @@
 		2E8603E11500723C00D37407 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8603DF1500723C00D37407 /* MainStoryboard.storyboard */; };
 		2E8603E41500723C00D37407 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8603E31500723C00D37407 /* CalculatorViewController.m */; };
 		2E8603F0150176E900D37407 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8603EF150176E900D37407 /* CalculatorBrain.m */; };
+		2EA2C02115069A5200C60E38 /* Assignment 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2EA2C02015069A5200C60E38 /* Assignment 1.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		2E8603E31500723C00D37407 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		2E8603EE150176E900D37407 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		2E8603EF150176E900D37407 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		2EA2C02015069A5200C60E38 /* Assignment 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Assignment 1.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		2E8603D41500723C00D37407 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EA2C02015069A5200C60E38 /* Assignment 1.pdf */,
 				2E8603D51500723C00D37407 /* Stanford1-Info.plist */,
 				2E8603D61500723C00D37407 /* InfoPlist.strings */,
 				2E8603D91500723C00D37407 /* main.m */,
@@ -156,6 +159,7 @@
 			files = (
 				2E8603D81500723C00D37407 /* InfoPlist.strings in Resources */,
 				2E8603E11500723C00D37407 /* MainStoryboard.storyboard in Resources */,
+				2EA2C02115069A5200C60E38 /* Assignment 1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
